@@ -1,0 +1,61 @@
+/* Modernized Newsletter Form Styles */
+#nw-newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f6f7f7;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#nw-newsletter-form label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+#nw-newsletter-form input[type="text"],
+#nw-newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 14px;
+    color: #555;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out;
+}
+
+#nw-newsletter-form input[type="text"]:focus,
+#nw-newsletter-form input[type="email"]:focus {
+    border-color: #007cba;
+    outline: none;
+}
+
+#nw-newsletter-form button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #007cba;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#nw-newsletter-form button:hover {
+    background: #005a8c;
+}
+
+#nw-response-message {
+    text-align: center;
+    font-size: 14px;
+}

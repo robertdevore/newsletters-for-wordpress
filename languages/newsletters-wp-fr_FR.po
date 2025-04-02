@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsletters for WordPress®\n"
+"POT-Creation-Date: 2025-04-02 01:03-0400\n"
+"PO-Revision-Date: 2025-04-02 01:03-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: newsletters-for-wordpress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: classes/NewslettersListTable.php:30
+msgid "Subscriber"
+msgstr "Abonné"
+
+#: classes/NewslettersListTable.php:31
+msgid "Subscribers"
+msgstr "Abonnés"
+
+#: classes/NewslettersListTable.php:99
+msgid "ID"
+msgstr "ID"
+
+#: classes/NewslettersListTable.php:100 newsletters-for-wordpress.php:160
+#: newsletters-for-wordpress.php:351
+msgid "Name"
+msgstr "Nom"
+
+#: classes/NewslettersListTable.php:101 newsletters-for-wordpress.php:163
+#: newsletters-for-wordpress.php:354
+msgid "Email"
+msgstr "Email"
+
+#: classes/NewslettersListTable.php:102
+msgid "Signup Time"
+msgstr "Heure d'inscription"
+
+#: classes/NewslettersListTable.php:103
+msgid "Signup URL"
+msgstr "URL d'inscription"
+
+#: classes/NewslettersListTable.php:135
+msgid "Delete"
+msgstr "Supprimer"
+
+#: newsletters-for-wordpress.php:68
+msgid "Settings"
+msgstr "Paramètres"
+
+#: newsletters-for-wordpress.php:161
+msgid "Your Name"
+msgstr "Votre nom"
+
+#: newsletters-for-wordpress.php:164
+msgid "Your Email"
+msgstr "Votre Email"
+
+#: newsletters-for-wordpress.php:166
+msgid "Subscribe"
+msgstr "S'abonner"
+
+#: newsletters-for-wordpress.php:196 newsletters-for-wordpress.php:425
+msgid "Invalid email address."
+msgstr "Adresse courriel non valide."
+
+#: newsletters-for-wordpress.php:214
+msgid "Error saving data."
+msgstr "Erreur d'enregistrement des données."
+
+#: newsletters-for-wordpress.php:217
+msgid "Thank you for subscribing!"
+msgstr "Merci de vous être abonné!"
+
+#: newsletters-for-wordpress.php:280 newsletters-for-wordpress.php:281
+msgid "Newsletters"
+msgstr "Newsletters"
+
+#: newsletters-for-wordpress.php:292 newsletters-for-wordpress.php:293
+msgid "Signups"
+msgstr "Inscriptions"
+
+#: newsletters-for-wordpress.php:302 newsletters-for-wordpress.php:303
+msgid "Send Emails"
+msgstr "Envoyer emails"
+
+#: newsletters-for-wordpress.php:330
+msgid "Newsletter Signups"
+msgstr "Inscription au bulletin d'information"
+
+#: newsletters-for-wordpress.php:332
+msgid "Support"
+msgstr "Support"
+
+#: newsletters-for-wordpress.php:335
+msgid "Documentation"
+msgstr "Documentation"
+
+#: newsletters-for-wordpress.php:337 newsletters-for-wordpress.php:349
+msgid "Add Subscriber"
+msgstr "Ajouter un abonné"
+
+#: newsletters-for-wordpress.php:342
+msgid "Search"
+msgstr "Rechercher"
+
+#: newsletters-for-wordpress.php:357
+msgid "Add"
+msgstr "Ajouter"
+
+#: newsletters-for-wordpress.php:358
+msgid "Cancel"
+msgstr "Annuler"
+
+#: newsletters-for-wordpress.php:391
+msgid "Security check failed."
+msgstr "Échec du test de sécurité."
+
+#: newsletters-for-wordpress.php:439
+msgid "Subscriber added successfully."
+msgstr "L'abonné a été ajouté avec succès."
+
+#: newsletters-for-wordpress.php:441
+msgid "Failed to add subscriber."
+msgstr "Échec de l'ajout d'un abonné."
+
+#: newsletters-for-wordpress.php:462
+msgid "Send Email to Subscribers"
+msgstr "Envoyer un courriel aux abonnés"
+
+#: newsletters-for-wordpress.php:466
+msgid "Email Subject"
+msgstr "Sujet du courriel"
+
+#: newsletters-for-wordpress.php:470
+msgid "Email Body"
+msgstr "Corps de l’email"
+
+#: newsletters-for-wordpress.php:474
+msgid "Send Email"
+msgstr "Envoyer un email"
+
+#: newsletters-for-wordpress.php:508
+msgid "Emails sent successfully!"
+msgstr "E-mails envoyés avec succès!"
+
+#. Plugin Name of the plugin/theme
+msgid "Newsletters for WordPress®"
+msgstr "Bulletins d'information pour WordPress®"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/robertdevore/newsletters-for-wordpress/"
+msgstr "https://github.com/robertdevore/newsletters-for-wordpress/"
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin to manage newsletter signups and store subscriber data in a custom "
+"table."
+msgstr ""
+"Un plugin pour gérer les inscriptions à la newsletter et stocker les "
+"données des abonnés dans une table personnalisée."
+
+#. Author of the plugin/theme
+msgid "Robert DeVore"
+msgstr "Robert DeVore"
+
+#. Author URI of the plugin/theme
+msgid "https://robertdevore.com/"
+msgstr "https://robertdevore.com/"

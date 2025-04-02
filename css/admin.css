@@ -1,0 +1,112 @@
+/* Modal Overlay */
+#add-subscriber-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
+}
+
+/* Modal Content */
+#add-subscriber-modal .modal-content {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Headline */
+#add-subscriber-modal .modal-content h2 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+/* Form Container */
+#add-subscriber-modal #add-subscriber-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+#add-subscriber-modal .modal-content label {
+    margin: 0.75rem 0 0.25rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Inputs */
+#add-subscriber-modal .modal-content input[type="text"],
+#add-subscriber-modal .modal-content input[type="email"] {
+    width: 100%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+#add-subscriber-modal .modal-content input[type="text"]:focus,
+#add-subscriber-modal .modal-content input[type="email"]:focus {
+    border-color: #0073aa;
+}
+
+/* Buttons */
+#add-subscriber-modal .button {
+    margin-top: 10px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+/* Primary Button */
+#add-subscriber-modal .button.button-primary {
+    background-color: #0073aa;
+    border-color: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#add-subscriber-modal .button.button-primary:hover {
+    background-color: #005177;
+    border-color: #004966;
+}
+
+/* Cancel Button */
+#add-subscriber-modal .button#close-modal-button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    color: #444;
+    padding: 8px 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#add-subscriber-modal .button#close-modal-button:hover {
+    background-color: #e6e6e6;
+    border-color: #ccc;
+}
+
+/* Admin buttons */
+#nwp-support-btn,
+#nwp-docs-btn,
+#add-subscriber-button {
+    line-height: 22px;
+    float: right;
+    margin-left: 12px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 6px;
+}
